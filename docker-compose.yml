@@ -17,13 +17,13 @@ services:
       retries: 10
       start_period: 10s
   api:
-    build: .
+    build: ./elo-back
     container_name: elo-back
     depends_on:
       postgres:
         condition: service_healthy
     ports:
-      - "8080:8080"
+      - "8081:8081"
     env_file:
       - .env
     environment:
@@ -32,6 +32,14 @@ services:
       SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
       SPRING_PROFILES_ACTIVE: docker
       GOOGLE_BOOKS_API_KEY: ${GOOGLE_BOOKS_API_KEY}
+    restart: on-failure
+  front:
+    build: ./elo-front
+    container_name: elo-front
+    depends_on:
+      - api
+    ports:
+      - "8080:8080"
     restart: on-failure
 volumes:
   pgdata:
