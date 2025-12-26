@@ -191,13 +191,6 @@ elo-project/
 
 ---
 
-## 📚 Documentação Adicional
-
-- [Backend (elo-back)](./elo-back/README.md) - API REST, rotas, testes
-- [Frontend (elo-front)](./elo-front/README.md) - Componentes, serviços, build
-
----
-
 ## 📄 Licença
 
 Este projeto foi desenvolvido para fins de estudo e avaliação técnica. 
