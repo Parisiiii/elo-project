@@ -11,11 +11,6 @@ para meu aprendizado próprio, utilizando técnologias de DevOps, desenvolviment
 Considerações:
  - Tem algumas coisas no projeto que o requisito não específicava inteiramente, então foi improvisado.
  - O sistema foi pensado numa visão de administrador gerenciando uma biblioteca, então não tem login / autenticação
- - Não foi implementado nesse projeto um tratamento de erros eficiente.
- - Ordenação nas listagens não foi implementado
- - Filtragem nas listagens não foi implementado
- - Documentação da API com o swagger não foi implementado
- - O uso de IA nesse projeto foi inteiramente educacional, ou seja, não copiei e colei código sem entender ele antes.
 
 ---
 ## 📋 Índice
