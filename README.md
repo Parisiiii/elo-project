@@ -1,4 +1,4 @@
-# 📚 ELO Project - Sistema de Gerenciamento de Biblioteca
+# 📚 Elo-Project - Sistema de Gerenciamento de Biblioteca
 
 Sistema completo de gerenciamento de biblioteca composto por **Frontend Angular**, **Backend Spring Boot** e *
 *PostgreSQL**, orquestrados via **Docker Compose**.
@@ -11,11 +11,6 @@ para meu aprendizado próprio, utilizando técnologias de DevOps, desenvolviment
 Considerações:
  - Tem algumas coisas no projeto que o requisito não específicava inteiramente, então foi improvisado.
  - O sistema foi pensado numa visão de administrador gerenciando uma biblioteca, então não tem login / autenticação
- - Não foi implementado nesse projeto um tratamento de erros eficiente.
- - Ordenação nas listagens não foi implementado
- - Filtragem nas listagens não foi implementado
- - Documentação da API com o swagger não foi implementado
- - O uso de IA nesse projeto foi inteiramente educacional, ou seja, não copiei e colei código sem entender ele antes.
 
 ---
 ## 📋 Índice
@@ -188,13 +183,6 @@ elo-project/
 ├── .env                   # Variáveis de ambiente
 └── README.md
 ```
-
----
-
-## 📚 Documentação Adicional
-
-- [Backend (elo-back)](./elo-back/README.md) - API REST, rotas, testes
-- [Frontend (elo-front)](./elo-front/README.md) - Componentes, serviços, build
 
 ---
 
