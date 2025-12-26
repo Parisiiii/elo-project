@@ -1,4 +1,4 @@
-# 📚 ELO Project - Sistema de Gerenciamento de Biblioteca
+# 📚 Elo-Project - Sistema de Gerenciamento de Biblioteca
 
 Sistema completo de gerenciamento de biblioteca composto por **Frontend Angular**, **Backend Spring Boot** e *
 *PostgreSQL**, orquestrados via **Docker Compose**.
