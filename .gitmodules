@@ -1,6 +1,6 @@
 [submodule "elo-front"]
 	path = elo-front
-	url = git@github.com:Parisiiii/elo-front.git
+	url = https://github.com/Parisiiii/elo-front.git
 [submodule "elo-back"]
 	path = elo-back
-	url = git@github.com:Parisiiii/elo-back.git
+	url = https://github.com/Parisiiii/elo-back.git
