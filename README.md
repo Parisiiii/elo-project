@@ -74,7 +74,11 @@ cd elo-project
 # 2. Configure as variáveis de ambiente
 cp .env. example .env  # ou edite o . env existente
 
-# 3. Suba todos os serviços
+# 3. Clone os submodulos do projto
+git clone https://github.com/Parisiiii/elo-back.git
+git clone https://github.com/Parisiiii/elo-front.git
+
+# 4. Suba todos os serviços
 docker-compose up --build
 ```
 
