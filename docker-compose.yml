@@ -17,6 +17,9 @@ services:
       retries: 10
       start_period: 10s
   api:
+    cpus: '0.5'          # Limite de CPU (ajuste para estressar)
+    mem_limit: 512m      # Limite de memória RAM
+    mem_reservation: 256m
     build: ./elo-back
     container_name: elo-back
     depends_on:
